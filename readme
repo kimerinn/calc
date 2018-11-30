@@ -1,0 +1,12 @@
+Command-line PRN calc implementation
+
+Supports four operators now (+, -, *, /). Could be easily extended.
+
+Reads input from System.in and writes output to System.out. Could easily reuse other input/output sources
+
+To finish calculation, press 'q'+Enter or Ctrl+C .
+
+To run a code, compile a project (assuming you know how to do it) and invoke following command from the output folder:
+java com.svitla.calc.SimpleCalc
+
+Time spent - 2.5 hours
