@@ -48,9 +48,9 @@ public class SimpleCalc {
 		outWriter.flush();
 		
 		while (scanner.hasNextLine()) {
-			String ln = scanner.nextLine();
+			String ln = scanner.nextLine().trim().toLowerCase();
 			
-			if (EXIT_STR.equals(ln.trim().toLowerCase())) {
+			if (EXIT_STR.equals(ln)) {
 				break;
 			}
 			
